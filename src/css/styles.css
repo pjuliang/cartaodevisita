@@ -71,3 +71,30 @@ h2{
 .social-button:hover {
     background-color: hsl(75, 18%, 26%); /* Mais escuro ao passar o mouse */
 }
+
+/* Consultas de mídia para responsividade */
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .business-card {
+        padding: 15px;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .social-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
