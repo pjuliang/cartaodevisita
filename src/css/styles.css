@@ -72,29 +72,3 @@ h2{
     background-color: hsl(75, 18%, 26%); /* Mais escuro ao passar o mouse */
 }
 
-/* Consultas de mídia para responsividade */
-@media (max-width: 600px) {
-    body {
-        height: auto;
-        padding: 40px;
-    }
-    
-    .business-card {
-        padding: 30px;
-    }
-
-    .profile-photo {
-        width: 220px;
-        height: 220px;
-    }
-
-    h1 {
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-
-    .social-button {
-        padding: 16px 32px;
-        font-size: 28px;
-    }
-}
